@@ -1,1 +1,29 @@
-/* Start coding here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-box{
+    background-image:linear-gradient(45deg,hsl(0, 100%, 70%),hsl(240, 100%, 70%));
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box {
+    background-color: hsla(0, 50%, 100%, 0.5);
+    display: flex; 
+    flex-direction: column;
+    text-align: center; 
+    padding:  ; 
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    
+}
